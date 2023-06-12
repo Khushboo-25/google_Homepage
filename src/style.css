@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('https://source.unsplash.com/featured?nature');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.link{
+    text-align: right;
+    padding: 0px 5px 0px 5px;
+    margin: 20px 0px 128px 0px;
+}
+
+.edit{
+    position:fixed;
+    right:5px;
+    padding: 5px;
+    bottom: 5px;
+    border-radius: 27px;
+}
+
+.edit:hover{
+    background: rgb(126, 126, 126);
+}
+
+.Googleimg {
+    margin: 0px 0px 50px 0px;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+input{
+    background:none;
+    width: 640px;
+    height: 18px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    vertical-align:middle;
+}
+
+
+.SEARCHBOX {
+    background-color: rgb(254, 254, 253) ;
+    backface-visibility:hidden;
+    border-radius: 27px;
+    
+    margin:auto;
+    width: 45%; 
+     height: 40px;
+    
+    font-size: 34px;
+    padding: 8px 10px 8px 10px;
+    margin-bottom: 25px ;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-around;
+}
+.SEARCHBOX img{
+    width: 30px;
+    padding: 10px 10px 10px 10px;
+}
+.recent{
+    position: relative;
+    width: 500px; 
+    height: auto;
+    margin :auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+
+}
+.Recentlist{
+    position:relative;
+     display: flex; 
+    justify-content:center; 
+    align-items: center;
+}
+.Recentlist a {
+    background-color: rgb(232, 232, 232);
+    padding: 15px 15px 10px 15px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.Recentlist a img{
+    /* background-color: beige; */
+    width: 50px;
+    border-radius: 60px;
+    
+    
+}
+
+.Recentlist a img:hover{
+
+    /* background-color: rgb(149, 149, 87); */
+    border-radius: 0px;
+    
+    
+}
+.languages{
+    width:500px;
+    margin:auto;
+    height:40px;
+    text-align: center;
+    
+}
+    
+    a{
+        color: rgb(109, 56, 182);
+        font-size: 18px;
+        padding: 0px 10px 0px 0px;
+        margin :0px 3px 0px 3px;
+    }
+    .link a:hover{
+        background-color: rgb(107, 112, 145);
+        border-radius: 5px;
+    }
+    .languages a:hover{
+        background-color: rgb(107, 112, 145);
+        border-radius: 5px;
+    }
+    span{
+        color: rgb(26, 220, 171) ;
+    }
