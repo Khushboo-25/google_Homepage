@@ -64,31 +64,31 @@ input{
 .SEARCHBOX {
     background-color: rgb(254, 254, 253) ;
     backface-visibility:hidden;
-    border-radius: 27px;
+    border-radius: 50px;
     
-    margin:auto;
+    margin: auto;
     width: 45%; 
-     height: 40px;
-    
+    height: 40px;
     font-size: 34px;
-    padding: 8px 10px 8px 10px;
-    margin-bottom: 25px ;
+    padding: 15px 0px 8px 0px;
+    /* margin-bottom: 25px ; */
     display: flex;
     flex-direction: center;
-    justify-content: space-around;
+    justify-content:space-around;
 }
-.SEARCHBOX img{
-    width: 30px;
-    padding: 10px 10px 10px 10px;
+.SEARCHBOX input{
+    width: 68%;
+    /* border:  1px solid rgb(164, 50, 50); */
+    text-align: left;
 }
 .recent{
     position: relative;
-    width: 500px; 
+    width: 100%; 
     height: auto;
     margin :auto;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* flex-direction: center; */
+    justify-content: center;
     padding: 10px 0px 10px 0px;
 
 }
@@ -144,4 +144,42 @@ input{
     }
     span{
         color: rgb(26, 220, 171) ;
+    }
+    
+
+
+     .credit{
+        text-align: center;
+        padding: 1rem;
+        padding-top: 2.5rem;
+        font-size: 1.5rem;
+        color: rgb(22, 16, 16);
+        border-top: rgb(0, 0, 0);
+    }
+    .credit span{
+        color: rgb(26, 220, 171) ;
+    }
+
+
+    @media (max-width:991px)
+    {
+        .SEARCHBOX{
+            width: 400px;
+        }
+        .Googleimg img{
+            width: 300px;
+        }
+    }
+    @media (max-width:450px)
+    {
+        .SEARCHBOX{
+            width: 300px;
+        }
+        .Googleimg img{
+            width: 200px;
+        }
+        .Recentlist{
+            width: 200px;
+        }
+        
     }
